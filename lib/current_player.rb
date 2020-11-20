@@ -2,14 +2,14 @@
 
   
 def turn_count(board)
-  i = 0 
+  turns = 0 
   board.each do |i|
   if i < 9
-    i += 1
+    turns += 1
   end
 end
 
-return i
+return turns
 end
 
 #Determines current player 
