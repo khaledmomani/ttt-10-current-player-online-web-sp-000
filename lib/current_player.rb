@@ -3,7 +3,7 @@
   
 def turn_count(board)
   turns = 0 
-  board.each do |i|
+  board.each do |space|
   if i < 9
     turns += 1
   end
